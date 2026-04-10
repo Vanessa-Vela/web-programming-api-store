@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="background:#1e293b; color:white; padding:20px; text-align:center">
+        <h1>SHOP</h1>
+    </header>
+
+    <div style="text-align:center; padding: 20px;">
+        <input type="text" id="search-input" placeholder="Search products..." style="width:300px;">
+        <button id="search-btn" style="width:auto; padding:10px 25px;">Search</button>
+    </div>
+
+    <div id="results-grid" class="grid-container"></div>
+
+    <script src="script.js"></script>
+    <script>window.onload = loadProducts;</script>
+</body>
+</html>
